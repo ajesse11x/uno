@@ -5,6 +5,7 @@
 - Added support for using a `string` value in a `StaticResource` when using `CreateFromStringAttribute'
 - [Android] Adds support for `FeatureConfiguration.ScrollViewer.AndroidScrollbarFadeDelay`
 - Add support for `Grid.ColumnSpacing` and `Grid.RowSpacing`
+- Add support for `Popup.LightDismissOverlayMode`, as well as `DatePicker.LightDismissOverlayMode` and `Flyout.LightDismissOverlayMode`
 
 ### Breaking changes
 -
