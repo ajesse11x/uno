@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  labels:
+  - kind/dependency
+  - do-not-merge/work-in-progress
+  ignore:
+  - dependency-name: cef.redist.x86
+    versions:
+    - 87.1.13
+    - 88.2.4
+    - 88.2.9
+    - 89.0.14
+  - dependency-name: Microsoft.VisualStudio.Threading.Analyzers
+    versions:
+    - 16.8.55
+    - 16.9.54
+  - dependency-name: Microsoft.CodeAnalysis
+    versions:
+    - 3.8.0
